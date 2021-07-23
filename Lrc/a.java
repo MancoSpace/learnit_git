@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AwsHelloWorldApplication {
 
 	public static void main(String[] args) {
+		printl("hello Worl");
 		SpringApplication.run(AwsHelloWorldApplication.class, args);
 	}
 
